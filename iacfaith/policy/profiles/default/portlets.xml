@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<portlets>
+
+<!-- -*- extra stuff goes here -*- -->
+    <portlet
+        addview="newest_image_portlet"
+        title="Newest Image Portlet"
+        description=""
+    />
+
+</portlets>
