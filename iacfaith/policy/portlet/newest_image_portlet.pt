@@ -1,6 +1,7 @@
 <div class="portlet" tal:define="results view/results">
+    <h3>Gallery</h3>
     <a tal:attributes="href python: results['img_url']">
-        <h3 tal:content="python: results['title']"></h3>
+        <h5 tal:content="python: results['title']"></h5>
         <img tal:attributes="src python: results['img_src']"/>
     </a>
 </div>
